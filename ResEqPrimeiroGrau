@@ -1,0 +1,8 @@
+# Programa que calcula equacoes de primeiro grau
+x = int(input("Qual o valor da variavel X? "))
+coefA = int(input("Qual o valor do coeficiente A? "))
+coefB = int(input("Qual o valor do coeficiente B? "))
+
+res = coefA*x + coefB
+
+print("O resultado da equacao {}x + {}, quando x = {} e igual a: {}".format(coefA, coefB, x, res))
